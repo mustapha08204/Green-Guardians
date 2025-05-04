@@ -996,3 +996,69 @@ a:focus {
   justify-content: center;
   align-items: center;
 }
+.elearning-cover {
+  margin: 50px auto;
+  background: linear-gradient(to right, #d9f2e6, #c2f0dd);
+  padding: 4rem 1rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  animation: slideFadeIn 1.5s ease-in-out;
+}
+
+.cover-content {
+  max-width: 800px;
+  margin: auto;
+  animation: fadeInUp 1.2s ease-in-out;
+}
+
+.elearning-cover h2 {
+  font-size: 2.5rem;
+  color: #2c786c;
+  margin-bottom: 1rem;
+}
+
+.elearning-cover p {
+  font-size: 1.2rem;
+  color: #444;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  background: #2c786c;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.cta-button:hover {
+  background: #3da68d;
+  transform: scale(1.05);
+}
+
+/* Simple fade/slide animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideFadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

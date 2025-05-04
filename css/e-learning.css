@@ -1,0 +1,147 @@
+body {
+  font-family: "Outfit", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f4f8;
+  color: #333;
+}
+
+header {
+  background: #2c786c;
+  color: #fff;
+  padding: 1.2rem 2rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.back-btn {
+  color: #fff;
+  background: #3da68d;
+  padding: 0.4rem 0.9rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.back-btn:hover {
+  background: #2c786c;
+  transform: translateY(-2px);
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+  background: linear-gradient(to right, #e9fce8, #d4f1e0);
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  color: #2c786c;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.coming-soon {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  background: #2c786c;
+  color: white;
+  padding: 0.7rem 1.4rem;
+  border-radius: 12px;
+  display: inline-block;
+  animation: pulse 2s infinite;
+}
+
+/* Video section */
+.videos,
+.articles {
+  padding: 2rem;
+  background: #fff;
+}
+
+.videos h3,
+.articles h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #2c786c;
+}
+
+.video-grid,
+.article-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.video-card,
+.article-card {
+  background: #e8f5f0;
+  padding: 1rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.video-card:hover,
+.article-card:hover {
+  transform: translateY(-5px);
+}
+
+.video-card img {
+  width: 100%;
+  max-height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 0.8rem;
+}
+
+.coming-tag {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #3da68d;
+  color: #fff;
+  padding: 0.3rem 0.8rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+
+footer {
+  background: #2c786c;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+
+/* Animations */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(44, 120, 108, 0.7);
+  }
+  70% {
+    transform: scale(1.05);
+    box-shadow: 0 0 0 10px rgba(44, 120, 108, 0);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(44, 120, 108, 0);
+  }
+}
