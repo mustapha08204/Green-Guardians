@@ -902,7 +902,6 @@ a:focus {
 
 .row > .col-md-4 {
   display: flex;
-  margin-bottom: 30px;
 }
 
 .service-card {
