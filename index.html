@@ -24,6 +24,10 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
 
     <!--owl slider stylesheet -->
     <link
@@ -39,6 +43,17 @@
     <link href="css/style.css" rel="stylesheet" />
     <!-- responsive style -->
     <link href="css/responsive.css" rel="stylesheet" />
+    <style>
+      .img-box {
+        display: block;
+      }
+
+      @media screen and (max-width: 1024px) {
+        .img-box {
+          display: none;
+        }
+      }
+    </style>
   </head>
 
   <body>
@@ -48,13 +63,13 @@
         <div class="header_top">
           <div class="container-fluid">
             <div class="contact_nav">
-              <a href="">
+              <a href="+234-8036113697">
                 <i class="fa fa-phone" aria-hidden="true"></i>
                 <span> Call : +234-8036113697 </span>
               </a>
-              <a href="">
+              <a href="revolutioneco25@gmail.com">
                 <i class="fa fa-envelope" aria-hidden="true"></i>
-                <span> Email : Abugumel01@outlook.com </span>
+                <span> Email : revolutioneco25@gmail.com </span>
               </a>
               <a href="">
                 <i class="fa fa-map-marker" aria-hidden="true"></i>
@@ -170,8 +185,13 @@
               <p>
                 This is an innovative environmental organization which aims to
                 drive sustainable development and environmental conscience in
-                our day to day lives. Our mission is to drive innovation and
-                take environmental responsibility in Africa to greater heights.
+                our day to day lives.
+              </p>
+              <p>
+                Our mission is to drive innovation and take environmental
+                responsibility in Africa to greater heights.
+              </p>
+              <p>
                 Our Vision is to build an Africa for all free of social and
                 environmental concern while harnessing the vast capital, natural
                 and human resources available. To create environmental conscious
@@ -191,127 +211,126 @@
     </section>
 
     <!-- end about section -->
-    <!-- service section -->
-
-    <section class="service_section layout_padding">
-      <div class="service_container">
-        <div class="container">
-          <div class="heading_container">
-            <h2>Our <span>Services</span></h2>
-            <p></p>
+    <!-- Service Section -->
+    <section class="service_section py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2>Our <span style="color: #00bcd4">Services</span></h2>
+        </div>
+        <div class="row">
+          <!-- Card 1 -->
+          <div class="col-md-4 d-flex">
+            <div class="service-card">
+              <div class="image-container">
+                <img src="images/green-schools.jpg" alt="Green Schools" />
+              </div>
+              <div class="card-body">
+                <h5>Green Schools</h5>
+                <p>
+                  Green Schools are designed to be environmentally sustainable,
+                  with activities to teach students environmental consciousness.
+                </p>
+                <a href="services/green-schools.html">Read More</a>
+              </div>
+            </div>
           </div>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="box">
-                <div class="img-box">
-                  <img src="images/" alt="" />
-                </div>
-                <div class="detail-box">
-                  <h5>Green schools</h5>
-                  <p>
-                    Green Schools are a growing trend in education—and rightly
-                    so. These schools are designed to be environmentally
-                    sustainable, and we aim to introduce extracurricular
-                    activities that prepare students with basic environmental
-                    consciousness.
-                  </p>
-                  <a href="services/green-schools.html"> Read More </a>
-                </div>
+
+          <!-- Card 2 -->
+          <div class="col-md-4 d-flex">
+            <div class="service-card">
+              <div class="image-container">
+                <img src="images/green-energy.jpg" alt="Green Energy" />
+              </div>
+              <div class="card-body">
+                <h5>Green Energy</h5>
+                <p>
+                  Producing electricity from renewable sources like wind, solar
+                  and thermal to ensure a cleaner, sustainable future.
+                </p>
+                <a href="services/GreenEnergy.html">Read More</a>
               </div>
             </div>
-            <div class="col-md-6">
-              <div class="box">
-                <div class="img-box">
-                  <img src="images/" alt="" />
-                </div>
-                <div class="detail-box">
-                  <h5>Green Energy</h5>
-                  <p>
-                    Green energy is a growing trend in the world of renewable
-                    energy. It is the process of producing electricity from
-                    renewable sources, such as wind, solar and thermal energy
-                    etc.
-                  </p>
-                  <a href="services/GreenEnergy.html"> Read More </a>
-                </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-md-4 d-flex">
+            <div class="service-card">
+              <div class="image-container">
+                <img
+                  src="images/climate-awareness.jpg"
+                  alt="Climate Awareness"
+                />
+              </div>
+              <div class="card-body">
+                <h5>Climate Awareness</h5>
+                <p>
+                  Recognizing causes and consequences of climate change is the
+                  first step in creating impactful environmental solutions.
+                </p>
+                <a href="services/ClimateAwareness.html">Read More</a>
               </div>
             </div>
-            <div class="col-md-6">
-              <div class="box">
-                <div class="img-box">
-                  <img src="images/" alt="" />
-                </div>
-                <div class="detail-box">
-                  <h5>Climate awarence</h5>
-                  <p>
-                    It is the foundation for actionable solutions, and it
-                    involves recognizing the causes, risks, and outcomes of
-                    climate change and global warming.
-                  </p>
-                  <a href="services/ClimateAwareness.html"> Read More </a>
-                </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="col-md-4 d-flex">
+            <div class="service-card">
+              <div class="image-container">
+                <img
+                  src="images/social-consultance.jpg"
+                  alt="Social Consultance"
+                />
+              </div>
+              <div class="card-body">
+                <h5>Social Consultance</h5>
+                <p>
+                  Supporting social and environmental initiatives through expert
+                  consulting and effective planning strategies.
+                </p>
+                <a href="#">Read More</a>
               </div>
             </div>
-            <div class="col-md-6">
-              <div class="box">
-                <div class="img-box">
-                  <img src="images/" alt="" />
-                </div>
-                <div class="detail-box">
-                  <h5>Social consultance</h5>
-                  <p>
-                    fact that a reader will be distracted by the readable
-                    content of a page when looking at its layout. The point of
-                    using
-                  </p>
-                  <a href=""> Read More </a>
-                </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="col-md-4 d-flex">
+            <div class="service-card">
+              <div class="image-container">
+                <img src="images/waste-management.jpg" alt="Waste Management" />
+              </div>
+              <div class="card-body">
+                <h5>Waste Management</h5>
+                <p>
+                  The 3Rs—Reduce, Reuse, Recycle—are key to effective waste
+                  management and fighting climate change.
+                </p>
+                <a href="services/WasteManagement.html">Read More</a>
               </div>
             </div>
-            <div class="col-md-6">
-              <div class="box">
-                <div class="img-box">
-                  <img src="images/" alt="" />
-                </div>
-                <div class="detail-box">
-                  <h5>Waste manegment</h5>
-                  <p>
-                    The 3Rs stand for Reduce, Reuse, Recycle. These three small
-                    words are pivotal to managing waste and helping to combat
-                    climate change. Reduce means to make smaller/less in amount.
-                    Reuse means to use something again, either for its original
-                    purpose or repurposed for a different task.
-                  </p>
-                  <a href="services/WasteManagement.html"> Read More </a>
-                </div>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="col-md-4 d-flex">
+            <div class="service-card">
+              <div class="image-container">
+                <img
+                  src="images/plastic-conscience.jpg"
+                  alt="Plastic Conscience"
+                />
               </div>
-            </div>
-            <div class="col-md-6">
-              <div class="box">
-                <div class="img-box">
-                  <img src="images/" alt="" />
-                </div>
-                <div class="detail-box">
-                  <h5>Plants conscience</h5>
-                  <p>
-                    Plastic pollution is one of the major concerns in
-                    environmental sustainability and waste management. There is
-                    a need for drastic action when it comes to waste
-                    management,. more plastic wastes end up in landfills and
-                    oceans each year causing harm to innocent aquatic life and
-                    introducing toxins to the atmosphere as result of open
-                    burning.
-                  </p>
-                  <a href="services/Plastic Conscience.html"> Read More </a>
-                </div>
+              <div class="card-body">
+                <h5>Plastic Conscience</h5>
+                <p>
+                  Plastic waste is a major threat to ecosystems. We aim to raise
+                  awareness and promote responsible plastic usage.
+                </p>
+                <a href="services/PlasticConscience.html">Read More</a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-
-    <!-- end service section -->
     <!-- e-learning section -->
     <section class="elearning-cover">
       <div class="cover-content">
@@ -324,6 +343,127 @@
       </div>
     </section>
     <!-- end e-learning section -->
+    <!-- blog section -->
+    <section class="blog_section layout_padding">
+      <div class="container">
+        <div class="heading_container">
+          <h2>Our <span>Blog</span></h2>
+        </div>
+        <div class="row">
+          <!-- Blog Post 1 -->
+          <div class="col-md-4">
+            <div class="blog_box">
+              <div class="img-box">
+                <img
+                  src="https://via.placeholder.com/400x200?text=Green+Living"
+                  alt="Poster 1"
+                />
+              </div>
+              <div class="detail-box">
+                <h5>Green Living Tips</h5>
+                <p>
+                  Learn how small daily choices can lead to a sustainable
+                  lifestyle. Download the attached PDF guide.
+                </p>
+                <a href="pdfs/green-living-tips.pdf" target="_blank"
+                  >Download PDF</a
+                ><br />
+                <a href="blog/green-living.html">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog Post 2 -->
+          <div class="col-md-4">
+            <div class="blog_box">
+              <div class="img-box">
+                <img
+                  src="https://via.placeholder.com/400x200?text=Climate+Education"
+                  alt="Poster 2"
+                />
+              </div>
+              <div class="detail-box">
+                <h5>Climate Education in Schools</h5>
+                <p>
+                  Discover how educational institutions are integrating climate
+                  knowledge into their curriculum.
+                </p>
+                <a href="pdfs/climate-education.pdf" target="_blank"
+                  >Download PDF</a
+                ><br />
+                <a href="blog/climate-education.html">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog Post 3 -->
+          <div class="col-md-4">
+            <div class="blog_box">
+              <div class="img-box">
+                <img
+                  src="https://via.placeholder.com/400x200?text=Waste+to+Wealth"
+                  alt="Poster 3"
+                />
+              </div>
+              <div class="detail-box">
+                <h5>Waste to Wealth</h5>
+                <p>
+                  Innovative ideas on turning waste into useful products for
+                  economic value.
+                </p>
+                <a href="blog/waste-to-wealth.html">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog Post 4 -->
+          <div class="col-md-4">
+            <div class="blog_box">
+              <div class="img-box">
+                <img
+                  src="https://via.placeholder.com/400x200?text=Renewable+Energy"
+                  alt="Renewable Energy"
+                />
+              </div>
+              <div class="detail-box">
+                <h5>Renewable Energy Innovations</h5>
+                <p>
+                  Explore the latest advancements in solar and wind energy
+                  technology.
+                </p>
+                <a href="pdfs/renewable-energy.pdf" target="_blank"
+                  >Download PDF</a
+                ><br />
+                <a href="blog/renewable-energy.html">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog Post 5 -->
+          <div class="col-md-4">
+            <div class="blog_box">
+              <div class="img-box">
+                <img
+                  src="https://via.placeholder.com/400x200?text=Urban+Gardening"
+                  alt="Urban Gardening"
+                />
+              </div>
+              <div class="detail-box">
+                <h5>Urban Gardening Guide</h5>
+                <p>
+                  Tips for growing your own vegetables and herbs in small city
+                  spaces.
+                </p>
+                <a href="pdfs/urban-gardening.pdf" target="_blank"
+                  >Download PDF</a
+                ><br />
+                <a href="blog/urban-gardening.html">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- contact section -->
     <section class="contact_section">
       <div class="container-fluid">
@@ -372,15 +512,15 @@
         <div class="row">
           <div class="col-md-6 col-lg-3 info_col">
             <div class="info_contact">
-              <h4>Address</h4>
+              <h4>Contact us</h4>
               <div class="contact_link_box">
                 <a href="">
                   <i class="fa fa-phone" aria-hidden="true"></i>
                   <span> Call : +234-8036113697 </span>
                 </a>
-                <a href="">
+                <a href="revolutioneco25@gmail.com">
                   <i class="fa fa-envelope" aria-hidden="true"></i>
-                  <span> Abugumel01@outlook.com </span>
+                  <span> revolutioneco25@gmail.com </span>
                 </a>
               </div>
             </div>

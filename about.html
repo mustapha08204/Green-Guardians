@@ -38,84 +38,94 @@
     <link href="css/style.css" rel="stylesheet" />
     <!-- responsive style -->
     <link href="css/responsive.css" rel="stylesheet" />
+    <style>
+      .img-box {
+        display: block;
+      }
+
+      @media screen and (max-width: 1024px) {
+        .img-box {
+          display: none;
+        }
+      }
+    </style>
   </head>
 
   <body class="sub_page">
-    <div class="hero_area">
-      <!-- header section strats -->
-      <header class="header_section">
-        <div class="header_top">
-          <div class="container-fluid">
-            <div class="contact_nav">
-              <a href="">
-                <i class="fa fa-phone" aria-hidden="true"></i>
-                <span> Call : +234-8036113697 </span>
-              </a>
-              <a href="">
-                <i class="fa fa-envelope" aria-hidden="true"></i>
-                <span> Email : Abugumel01@outlook.com </span>
-              </a>
-              <a href="">
-                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                <span> Location </span>
-              </a>
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="header_top">
+        <div class="container-fluid">
+          <div class="contact_nav">
+            <a href="+234-8036113697">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <span> Call : +234-8036113697 </span>
+            </a>
+            <a href="revolutioneco25@gmail.com">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <span> Email : revolutioneco25@gmail.com </span>
+            </a>
+            <a href="">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <span> Location </span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="header_bottom">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg custom_nav-container">
+            <a class="navbar-brand" href="index.html">
+              <span> REVOLUTION ECO </span>
+            </a>
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class=""> </span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html"
+                    >Home <span class="sr-only">(current)</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html"> About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="service.html">Services</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="blog.html">BLOG</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./E-learning.html"> E-learning</a>
+                </li>
+                <form class="form-inline">
+                  <button class="btn my-2 my-sm-0 nav_search-btn" type="submit">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                  </button>
+                </form>
+              </ul>
             </div>
-          </div>
+          </nav>
         </div>
-        <div class="header_bottom">
-          <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg custom_nav-container">
-              <a class="navbar-brand" href="index.html">
-                <span> REVOLUTION ECO </span>
-              </a>
-
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class=""> </span>
-              </button>
-
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="index.html"
-                      >Home <span class="sr-only">(current)</span></a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="service.html">Services</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="about.html"> About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact Us</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"> E-learning</a>
-                  </li>
-                  <form class="form-inline">
-                    <button
-                      class="btn my-2 my-sm-0 nav_search-btn"
-                      type="submit"
-                    >
-                      <i class="fa fa-search" aria-hidden="true"></i>
-                    </button>
-                  </form>
-                </ul>
-              </div>
-            </nav>
-          </div>
-        </div>
-      </header>
-      <!-- end header section -->
-    </div>
+      </div>
+    </header>
+    <!-- end header section -->
 
     <!-- about section -->
 
@@ -130,8 +140,13 @@
               <p>
                 This is an innovative environmental organization which aims to
                 drive sustainable development and environmental conscience in
-                our day to day lives. Our mission is to drive innovation and
-                take environmental responsibility in Africa to greater heights.
+                our day to day lives.
+              </p>
+              <p>
+                Our mission is to drive innovation and take environmental
+                responsibility in Africa to greater heights.
+              </p>
+              <p>
                 Our Vision is to build an Africa for all free of social and
                 environmental concern while harnessing the vast capital, natural
                 and human resources available. To create environmental conscious
@@ -150,7 +165,6 @@
     </section>
 
     <!-- end about section -->
-
     <!-- info section -->
 
     <section class="info_section layout_padding2">
@@ -158,15 +172,15 @@
         <div class="row">
           <div class="col-md-6 col-lg-3 info_col">
             <div class="info_contact">
-              <h4>Address</h4>
+              <h4>Contact us</h4>
               <div class="contact_link_box">
                 <a href="">
                   <i class="fa fa-phone" aria-hidden="true"></i>
                   <span> Call : +234-8036113697 </span>
                 </a>
-                <a href="">
+                <a href="revolutioneco25@gmail.com">
                   <i class="fa fa-envelope" aria-hidden="true"></i>
-                  <span> Abugumel01@outlook.com </span>
+                  <span> revolutioneco25@gmail.com </span>
                 </a>
               </div>
             </div>
@@ -230,6 +244,7 @@
     </section>
 
     <!-- end info section -->
+
     <!-- footer section -->
     <section class="footer_section">
       <div class="container">

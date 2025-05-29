@@ -6,26 +6,9 @@ body {
   color: #333;
 }
 
-header {
-  background: #2c786c;
-  color: #fff;
-  padding: 1.2rem 2rem;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  font-size: 1.8rem;
-  font-weight: 700;
-}
-
 .back-btn {
   color: #fff;
-  background: #3da68d;
+  background-color: #04233b;
   padding: 0.4rem 0.9rem;
   border-radius: 8px;
   text-decoration: none;
@@ -34,7 +17,7 @@ header {
 }
 
 .back-btn:hover {
-  background: #2c786c;
+  background-color: #04233b;
   transform: translateY(-2px);
 }
 
@@ -58,7 +41,7 @@ header {
 .coming-soon {
   margin-top: 1.5rem;
   font-size: 1.2rem;
-  background: #2c786c;
+  background-color: #04233b;
   color: white;
   padding: 0.7rem 1.4rem;
   border-radius: 12px;
@@ -115,19 +98,11 @@ header {
 .coming-tag {
   display: inline-block;
   margin-top: 1rem;
-  background: #3da68d;
+  background-color: #04233b;
   color: #fff;
   padding: 0.3rem 0.8rem;
   border-radius: 8px;
   font-size: 0.9rem;
-}
-
-footer {
-  background: #2c786c;
-  color: #fff;
-  text-align: center;
-  padding: 1rem;
-  margin-top: 3rem;
 }
 
 /* Animations */
