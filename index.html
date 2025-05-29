@@ -49,6 +49,12 @@
       }
 
       @media screen and (max-width: 1024px) {
+        .about_section {
+          margin-top: 50px;
+        }
+        .service_section {
+          margin-top: 80px;
+        }
         .img-box {
           display: none;
         }
@@ -135,33 +141,57 @@
         </div>
       </header>
       <!-- end header section -->
-      <!-- slider section -->
-      <section class="slider_section">
+      <!-- Slider Section -->
+      <section class="slider_section position-relative overflow-hidden">
         <div class="slider_bg_box">
-          <img src="images/download (6).jpeg" alt="" />
+          <img
+            src="images/download (6).jpeg"
+            alt="Eco background"
+            class="w-100 h-100 object-fit-cover position-absolute top-0 start-0"
+          />
+          <div
+            class="overlay position-absolute w-100 h-100 top-0 start-0"
+            style="background-color: rgba(0, 0, 0, 0.5)"
+          ></div>
         </div>
+
         <div id="customCarousel1" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <div class="container">
-                <div class="row">
+              <div class="container text-white py-5">
+                <div class="row align-items-center">
                   <div class="col-md-7">
                     <div class="detail-box">
-                      <h1>REVOLUTION ECO</h1>
-                      <p>
-                        An innovative environmental organization dedicated to
-                        promoting sustainability and environmental awareness in
-                        daily life. Its mission is to drive innovation and
-                        elevate environmental responsibility in Africa. The
-                        vision is to create a socially and environmentally
-                        sustainable Africa by leveraging its resources and
-                        fostering a community prepared for environmental
-                        challenges.
+                      <h1
+                        class="display-4 fw-bold text-uppercase mb-4"
+                        style="letter-spacing: 1px"
+                      >
+                        Revolution Eco
+                      </h1>
+                      <p class="lead mb-4">
+                        We are redefining sustainability in Africa. Revolution
+                        Eco is on a mission to spark innovation, raise
+                        awareness, and build communities prepared for tomorrow’s
+                        environmental challenges. Let’s shape a greener,
+                        brighter future—together.
                       </p>
                       <div class="btn-box">
-                        <a href="blog.html" class="btn1"> Learn More </a>
+                        <a
+                          href="blog.html"
+                          class="btn btn-success btn-lg px-4 py-2 rounded-pill shadow"
+                        >
+                          Learn More
+                        </a>
                       </div>
                     </div>
+                  </div>
+                  <!-- Optional image or illustration on right -->
+                  <div class="col-md-5 d-none d-md-block">
+                    <img
+                      src="images/eco-illustration.png"
+                      alt="Eco illustration"
+                      class="img-fluid rounded shadow-lg"
+                    />
                   </div>
                 </div>
               </div>
@@ -169,12 +199,12 @@
           </div>
         </div>
       </section>
-      <!-- end slider section -->
+      <!-- End Slider Section -->
     </div>
 
     <!-- about section -->
 
-    <section class="about_section layout_padding-bottom">
+    <section id="about" class="about_section layout_padding-bottom">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
